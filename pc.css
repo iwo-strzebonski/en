@@ -8,8 +8,8 @@
         grid-template-areas: "photo characteristic" "download download";
     }
     .header {
-        grid-template-columns: 180px 120px 120px 120px 120px 60px 1fr;
-        grid-template-areas: "main education certificates hobbies contact lang .";
+        grid-template-columns: 180px 1fr 120px 120px 120px 120px 60px;
+        grid-template-areas: "main . education certificates hobbies contact lang";
         background-color: #82817F;
     }
     .menu {
