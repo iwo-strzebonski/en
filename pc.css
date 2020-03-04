@@ -17,4 +17,28 @@
     .sidenav {
         display: none;
     }
+    
+    .main {
+        grid-area: main;
+    }
+
+    .lang {
+        grid-area: lang;
+    }
+
+    .contact {
+        grid-area: contact;
+    }
+
+    .hobbies {
+        grid-area: hobbies;
+    }
+
+    .certificates {
+        grid-area: certificates;
+    }
+
+    .education {
+        grid-area: education;
+    }
 }
