@@ -112,28 +112,6 @@ a:hover {
     grid-area: information;
 }
 
-@media (min-width: 980px) {
-    .content {
-        grid-template-columns: 1fr 960px 1fr;
-    }
-    .information {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 60px;
-        grid-template-areas: "photo characteristic" "download download";
-    }
-}
-
-@media (max-width: 980px) {
-    .content {
-        grid-template-columns: 1fr 90% 1fr;
-    }
-    .information {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 60px;
-        grid-template-areas: "photo" "characteristic" "download";
-    }
-}
-
 .photo {
     grid-area: photo;
     background-color: #C2C1BE;
