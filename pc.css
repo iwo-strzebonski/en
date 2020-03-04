@@ -21,6 +21,7 @@
     .contact, .hobbies, .certificates, .education {
         padding-left: 4px;
         padding-right: 4px;
+        background-color: #82817F;
     }
     .lang {
         grid-area: lang;
