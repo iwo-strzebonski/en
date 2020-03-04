@@ -8,7 +8,7 @@
         grid-template-areas: "photo characteristic" "download download";
     }
     .menu {
-    display: none;
+        display: none;
     }
 
     .sidenav {
