@@ -10,7 +10,7 @@
     .header {
         grid-template-columns: 180px 1fr 120px 120px 120px 120px 60px;
         grid-template-areas: "main . education certificates hobbies contact lang";
-        background-color: #82817F;
+        background-color: #EDECE9;
     }
     .menu {
         display: none;
@@ -18,10 +18,7 @@
     .sidenav {
         display: none;
     }
-    .space {
-        grid-area: space;
-        background-color: #EDECE9;
-    }
+    .lang, .contact, .hobbies, .certificates, .education { color: #363534;}
     .lang {
         grid-area: lang;
     }
