@@ -157,6 +157,8 @@ a:hover {
 }
 
 .footer {
+    position: fixed;
+    bottom: 0;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 180px 60px;
