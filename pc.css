@@ -7,10 +7,10 @@
         grid-template-rows: 1fr 60px;
         grid-template-areas: "photo characteristic" "download download";
     }
-    .menu {
-        display: none;
+    .header {
+        grid-template-columns: 1fr;
+        grid-template-areas: "main";
     }
-
     .sidenav {
         display: none;
     }
