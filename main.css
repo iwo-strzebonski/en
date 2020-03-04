@@ -100,7 +100,7 @@ a:hover {
 
 .content {
     display: grid;
-    height: 68.2vh;
+    height: 70vh;
     grid-template-rows: 3fr 1fr;
     grid-template-areas: ". information ." ". depiction .";
     grid-area: content;
