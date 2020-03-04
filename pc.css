@@ -18,9 +18,9 @@
     .sidenav {
         display: none;
     }
-    .lang, .contact, .hobbies, .certificates, .education {
-        color: #363534;
-        padding: 4px;
+    .contact, .hobbies, .certificates, .education {
+        padding-left: 4px;
+        padding-right: 4px;
     }
     .lang {
         grid-area: lang;
