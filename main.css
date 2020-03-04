@@ -34,6 +34,11 @@ a {
 .main:hover,
 .menu:hover,
 .download:hover,
+.lang:hover,
+.contact:hover,
+.hobbies:hover,
+.certificates:hover,
+education:hover,
 a:hover {
     background-color: #EDECE9;
     transition: 0.3s;
