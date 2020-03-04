@@ -8,9 +8,9 @@
         grid-template-areas: "photo characteristic" "download download";
     }
     .header {
-        grid-template-columns: 180px 1fr 120px 120px 120px 120px 60px;
+        grid-template-columns: 180px 1fr auto auto auto auto 60px;
         grid-template-areas: "main . education certificates hobbies contact lang";
-        background-color: #EDECE9;
+        background-color: #EDECE9;text-align: center;
     }
     .menu {
         display: none;
