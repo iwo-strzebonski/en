@@ -1,0 +1,10 @@
+@media (min-width: 980px) {
+    .content {
+        grid-template-columns: 1fr 960px 1fr;
+    }
+    .information {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 60px;
+        grid-template-areas: "photo characteristic" "download download";
+    }
+}
