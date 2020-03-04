@@ -9,7 +9,7 @@
     }
     .header {
         grid-template-columns: 180px 1fr 120px 120px 120px 120px 60px;
-        grid-template-areas: "main . education certificates hobbies contact lang";
+        grid-template-areas: "main space education certificates hobbies contact lang";
     }
     .menu {
         display: none;
@@ -17,27 +17,21 @@
     .sidenav {
         display: none;
     }
-    
-    .main {
-        grid-area: main;
+    .space {
+        grid-area: space;
     }
-
     .lang {
         grid-area: lang;
     }
-
     .contact {
         grid-area: contact;
     }
-
     .hobbies {
         grid-area: hobbies;
     }
-
     .certificates {
         grid-area: certificates;
     }
-
     .education {
         grid-area: education;
     }
